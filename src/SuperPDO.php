@@ -3,7 +3,6 @@
 // Définition de la class qui hérite de PDO
 class SuperPDO 
 {
-    // L'attribut qui stockera l'instance unique, la function est statique car on ne veut l'instancier qu'une seule fois
     private static $pdo; 
 
     // Function connect avec le paramètre config
